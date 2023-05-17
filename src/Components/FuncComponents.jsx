@@ -7,7 +7,7 @@ const FuncComponent = () => {
     return (
         <>
            <h1>
-                Hola <Nombres nombre={names}/> <Nombres numero={30}/>
+                Hey <Nombres nombre={names}/> !
            </h1>
         </>
     )

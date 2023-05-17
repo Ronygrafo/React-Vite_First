@@ -1,14 +1,12 @@
-const Nombres = ({nombre, numero}) => {
+import Numeros from './FuncHijoHijo'
 
-    //console.log(props);
+const Nombres = ({nombre}) => {
 
   return (
     <>
-        <span>{nombre} {numero}</span>
+        <span>{nombre} <Numeros numero={2023}/> </span>
     </>
   )
 }
 
 export default Nombres
-
-        //<span>{props.numero}</span>
